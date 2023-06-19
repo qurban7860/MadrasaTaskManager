@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <!-- activity_student_details.xml -->
+
+    <TextView
+        android:id="@+id/Sabaq"
+        android:layout_width="103dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="100dp"
+        android:text="Sabaq : "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/ManzilRepeat" />
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="156dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/ManzilRepeat"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/SabaqRange" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="64dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/Sabqi"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <Button
+        android:id="@+id/SabaqDoneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:text="Done"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="12dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/SabaqRepeatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toEndOf="@+id/AssignSabaq"
+        tools:layout_editor_absoluteY="258dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/AssignSabaq"
+        android:layout_width="149dp"
+        android:layout_height="52dp"
+        android:text="Assign Work"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="254dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Sabqi"
+        android:layout_width="97dp"
+        android:layout_height="41dp"
+        android:text="Saqbqi :"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="336dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Manzil"
+        android:layout_width="93dp"
+        android:layout_height="33dp"
+        android:text="Manzil :"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="472dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ManzilDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="104dp"
+        android:text="Done"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Manzil" />
+
+    <Button
+        android:id="@+id/ManzilRepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="108dp"
+        android:text="Repeat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ManzilDone"
+        app:layout_constraintTop_toBottomOf="@+id/Manzil" />
+
+    <TextView
+        android:id="@+id/SabaqRange"
+        android:layout_width="129dp"
+        android:layout_height="41dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Sabaq"
+        tools:layout_editor_absoluteY="103dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/SabqiParaNo"
+        android:layout_width="132dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="414dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ManzilParaNo"
+        android:layout_width="135dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="556dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="131dp"
+        android:layout_height="34dp"
+        android:text="Student Name : "
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="36dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/StudentName"
+        android:layout_width="107dp"
+        android:layout_height="30dp"
+        android:text="Name"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="36dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="71dp"
+        android:layout_height="26dp"
+        android:text="Para No : "
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="144dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/parano"
+        android:layout_width="74dp"
+        android:layout_height="29dp"
+        android:text="para "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="196dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

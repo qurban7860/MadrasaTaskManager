@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonSearch" type="id" />
+    <item name="editTextSearchCriteria" type="id" />
+    <item name="separator1" type="id" />
+    <item name="nameTextView" type="id" />
+</resources>
