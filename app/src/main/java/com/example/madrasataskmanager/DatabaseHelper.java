@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.ArrayList;
 import java.util.List;
-
+ // Creating database connection
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "student_database";
     private static final int DATABASE_VERSION = 1;
@@ -32,7 +32,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
-    @Override
+    @Override  //sqlite database
     public void onCreate(SQLiteDatabase db) {
         // Create the student table
         String createTableQuery = "CREATE TABLE IF NOT EXISTS " + TABLE_STUDENT + " (" +
@@ -55,7 +55,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String dropTableQuery = "DROP TABLE IF EXISTS " + TABLE_STUDENT;
         db.execSQL(dropTableQuery);
         onCreate(db);
-    }
+    }         // update sabaq
     public void updateSabaqRange(int id, int sabaqStart, int sabaqEnd) {
         SQLiteDatabase db = this.getWritableDatabase();
 
@@ -82,7 +82,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.update(TABLE_STUDENT, values, whereClause, whereArgs);
         db.close();
     }
-
+              
     public void updateCurrentManzilPara(int id, int currentManzilPara) {
         SQLiteDatabase db = this.getWritableDatabase();
 

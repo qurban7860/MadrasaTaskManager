@@ -44,7 +44,7 @@ public class StudentView extends RecyclerView.Adapter<StudentView.StudentViewHol
         public StudentViewHolder(@NonNull View itemView) {
             super(itemView);
         }
-
+            /////////////////////////////////////////////////////////
         public void bind(Student student) {
             // Bind student data to the views in the item layout
             // Example:

@@ -21,7 +21,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    //Recyclerview, adapter and layout manager
+    
     RecyclerView recyclerView;
     StudentView adapter;
     RecyclerView.LayoutManager layoutManager;
