@@ -62,7 +62,7 @@ public class MainActivity4 extends AppCompatActivity {
 
 
         submit=findViewById(R.id.input);
-
+        //current activities
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

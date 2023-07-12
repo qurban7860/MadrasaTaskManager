@@ -38,7 +38,7 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
     }
-
+        //add student id, name and age
     public boolean addStudent() {
         String name = editTextName.getText().toString();
         int age = Integer.parseInt(editTextAge.getText().toString());

@@ -91,6 +91,7 @@ public class MainActivity3 extends AppCompatActivity {
                 assignsabaq.setBackgroundColor(ContextCompat.getColor(MainActivity3.this,R.color.purple_500));
             }
         });
+        //sabaqrepeat
         sabaqrepeat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -98,6 +99,7 @@ public class MainActivity3 extends AppCompatActivity {
                 sabaqdone.setBackgroundColor(ContextCompat.getColor(MainActivity3.this,R.color.disabledButtonColor));
             }
         });
+
         assignsabaq.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
