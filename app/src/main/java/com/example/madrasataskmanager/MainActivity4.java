@@ -59,7 +59,7 @@ public class MainActivity4 extends AppCompatActivity {
 
 
 
-
+///////////////////////////////////////////////////////////////////////////////////
 
         submit=findViewById(R.id.input);
         //current activities
@@ -111,7 +111,7 @@ public class MainActivity4 extends AppCompatActivity {
 
 
     }
-}
+}///////////////////////////////////////////////////////////////////////////////////
 class QDH {
     public int [] PSP = {
             1,

@@ -23,6 +23,7 @@ public class MainActivity5 extends AppCompatActivity {
         app.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //create intent from move one activity to another activity
                 Intent intent= new Intent(MainActivity5.this,MainActivity.class);
                 startActivity(intent);
             }

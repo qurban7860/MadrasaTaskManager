@@ -230,7 +230,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 @SuppressLint("Range") String name = cursor.getString(cursor.getColumnIndex(COLUMN_NAME));
                 @SuppressLint("Range") int age = cursor.getInt(cursor.getColumnIndex(COLUMN_AGE));
                 @SuppressLint("Range") int cls = cursor.getInt(cursor.getColumnIndex(COLUMN_CLASS));
-
+               // creatig object of student class
                 Student student = new Student(id, age, cls, current_para, sabaqStart, current_manzil_para, sabaqEnd, sabqi, manzilRange, name);
                 studentList.add(student);
             } while (cursor.moveToNext());
