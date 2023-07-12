@@ -31,6 +31,7 @@ public class MainActivity5 extends AppCompatActivity {
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // my github link
                 String githubUrl = "https://github.com/qurban7860/MadrasaTaskManager.git";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl));
                 startActivity(intent);

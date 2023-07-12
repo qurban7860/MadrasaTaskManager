@@ -1,5 +1,5 @@
 package com.example.madrasataskmanager;
-
+//student id, class, age
 public class Student {
     public Student(int age, int cls, int current_para, int sabaq_start, int current_manzil_para, int sabaq_end, int sabqi, int manzil_range, String name) {
         this.age = age;

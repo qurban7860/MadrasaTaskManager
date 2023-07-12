@@ -3,7 +3,6 @@ package com.example.madrasataskmanager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -44,7 +43,7 @@ public class StudentView extends RecyclerView.Adapter<StudentView.StudentViewHol
         public StudentViewHolder(@NonNull View itemView) {
             super(itemView);
         }
-            /////////////////////////////////////////////////////////
+            //binding
         public void bind(Student student) {
             // Bind student data to the views in the item layout
             // Example:
